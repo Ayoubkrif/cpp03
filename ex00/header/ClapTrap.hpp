@@ -6,7 +6,7 @@
 /*   By: aykrifa <aykrifa@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 08:54:20 by aykrifa           #+#    #+#             */
-/*   Updated: 2025/08/23 12:28:30 by aykrifa          ###   ########.fr       */
+/*   Updated: 2025/08/23 12:39:05 by aykrifa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,6 @@ class	ClapTrap
 	private:
 		std::string		_Name;
 		int				_HitPoint;
-		int				_ErnergyPoint;
+		int				_EnergyPoint;
 		int				_AttackDamage;
 }	;

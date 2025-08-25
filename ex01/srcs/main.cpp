@@ -6,7 +6,7 @@
 /*   By: aykrifa <aykrifa@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 08:53:19 by aykrifa           #+#    #+#             */
-/*   Updated: 2025/08/25 03:18:52 by aykrifa          ###   ########.fr       */
+/*   Updated: 2025/08/25 05:22:24 by aykrifa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,6 @@ int	main(void)
 	kevin.attack("Bryan");
 	kevin.attack("Bryan");
 	kevin.attack("Bryan");
+	kevin.guardGate();
 	return 0;
 }

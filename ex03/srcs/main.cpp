@@ -6,16 +6,15 @@
 /*   By: aykrifa <aykrifa@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 08:53:19 by aykrifa           #+#    #+#             */
-/*   Updated: 2025/08/25 05:31:01 by aykrifa          ###   ########.fr       */
+/*   Updated: 2025/08/25 09:54:09 by aykrifa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
-#include "FragTrap.hpp"
+#include "DiamondTrap.hpp"
 
 int	main(void)
 {
-	FragTrap	kevin("Kevin");
+	DiamondTrap	kevin("Kevin");
 
 	kevin.attack("Bryan");
 	kevin.beRepaired(100);
@@ -37,5 +36,7 @@ int	main(void)
 	kevin.attack("Bryan");
 	kevin.attack("Bryan");
 	kevin.highFivesGuys();
+	kevin.guardGate();
+	kevin.whoAmI();
 	return 0;
 }

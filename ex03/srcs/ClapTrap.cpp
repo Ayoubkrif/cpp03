@@ -6,14 +6,14 @@
 /*   By: aykrifa <aykrifa@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 08:53:53 by aykrifa          #+#    #+#              */
-/*   Updated: 2025/08/25 03:27:55 by aykrifa          ###   ########.fr       */
+/*   Updated: 2025/08/25 09:39:15 by aykrifa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 
-ClapTrap::ClapTrap(void):	_Name("Default ClapTrap"), _HitPoint(10),
+ClapTrap::ClapTrap(void):	_Name("Default_ClapTrap"), _HitPoint(10),
 				_EnergyPoint(10), _AttackDamage(0)
 {
 	std::cout << "[🔧]"
@@ -105,4 +105,9 @@ void			ClapTrap::beRepaired(unsigned int amount)
 		<< this->_EnergyPoint << " Energy left !"
 		<< std::endl;
 	return ;
+}
+
+unsigned int const	&ClapTrap::getEp(void) const
+{
+	return (this->_EnergyPoint);
 }

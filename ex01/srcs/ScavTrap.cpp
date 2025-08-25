@@ -6,7 +6,7 @@
 /*   By: aykrifa <aykrifa@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 08:53:53 by aykrifa          #+#    #+#              */
-/*   Updated: 2025/08/25 05:21:56 by aykrifa          ###   ########.fr       */
+/*   Updated: 2025/08/25 10:06:51 by aykrifa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 ScavTrap::ScavTrap(void):	ClapTrap()
 {
 
-	_Name = "Default ScavTrap";
 	_HitPoint = 100;
 	_EnergyPoint = 50;
 	_AttackDamage = 20;
@@ -28,10 +27,8 @@ ScavTrap::ScavTrap(void):	ClapTrap()
 	return ;
 }
 
-ScavTrap::ScavTrap(std::string name):	ClapTrap()
+ScavTrap::ScavTrap(std::string name):	ClapTrap(name)
 {
-	_Name = "Default ScavTrap";
-	_Name = name;
 	_HitPoint = 100;
 	_EnergyPoint = 50;
 	_AttackDamage = 20;

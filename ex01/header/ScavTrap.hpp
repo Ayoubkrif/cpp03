@@ -6,7 +6,7 @@
 /*   By: aykrifa <aykrifa@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/23 08:54:20 by aykrifa           #+#    #+#             */
-/*   Updated: 2025/08/25 03:14:38 by aykrifa          ###   ########.fr       */
+/*   Updated: 2025/08/25 03:36:13 by aykrifa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,5 @@ class	ScavTrap : public	ClapTrap
 		ScavTrap		operator=(ScavTrap &rhs);								//Canonical
 
 		void			attack(const std::string &target);
+		void			guardGate(void);
 }	;
